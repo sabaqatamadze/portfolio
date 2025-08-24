@@ -61,10 +61,11 @@ nav a:hover {
 }
 
 .avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #ffffff;
+  width: 200px; /* Adjust for your image */
+  height: auto; /* Keep aspect ratio */
+  border-radius: 50%; /* Circle shape */
+  border: none; /* Remove white border */
+  object-fit: cover;
 }
 
 .text-content {
@@ -87,7 +88,7 @@ p {
   line-height: 1.6;
 }
 
-/* Social Links (GitHub, LinkedIn) */
+/* Social Links */
 .social-links {
   margin-top: 15px;
 }
@@ -191,7 +192,7 @@ p {
 
 .contact-item .contact-detail {
   font-size: 1em;
-  color: rgb(79, 94, 97); /* updated color for phone/email/location */
+  color: rgb(79, 94, 97);
   margin-left: 25px;
 }
 
